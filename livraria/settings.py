@@ -51,20 +51,13 @@ INSTALLED_APPS = [
 # Schema generation configuration
 SPECTACULAR_SETTINGS = {
     "TITLE": "Livraria Simples",
-    "DESCRIPTION": """A API Livraria tem como objetivo gerenciar informações sobre livros 
-                    como título, autor, ano de lançamento, status, número de páginas e data
-                    de criação.Com a API Livraria é possível obter, adicionar, editar e deletar
-                    um livro. Além disso, também é possível realizar busca pelos autores.
-                    O desenvolvedor pode encontrar toda a documentação referente à API
-                    na página /api/docs/. A documentação da API foi criada com Swagger e
-                    está disponível em Português, para facilitar o entendimento e utilização
-                    dos endpoints.""",
+    "DESCRIPTION": """A API Livraria permite gerir dados de livros e buscar por autores. A documentação da API está em Português e usa Swagger. A página /api/docs/ contém todas as informações sobre os endpoints.""",
     "VERSION": "0.1.0",
     "CONTACT": {"name": "Diogo", "email": "@example.com"},
     
     # The value defined below should match the one of the previous versions that used SORT_TAGS_ALPHA
     'TAG_SORTING_RULE': lambda tag: tag.name or '',
-}
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                   #Diogo Vieira
 
 
 
@@ -156,3 +149,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 REST_FRAMEWORK = {
     'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema'
 }
+
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                   #Diogo Vieira
